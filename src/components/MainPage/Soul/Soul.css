@@ -1,0 +1,41 @@
+.chat-Soul-cont {
+  display: flex;
+  height: 105px;
+  background: rgb(215, 199, 244);
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 25px;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 96%;
+}
+.chat-Soul-cont-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.chat-Soul-cont-heading {
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: 700;
+}
+.chat-Soul-cont-chat {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+}
+.chat-Soul-cont-time {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.62);
+}
+.show-star {
+  display: block;
+}
+.hide-star {
+  display: none;
+}
